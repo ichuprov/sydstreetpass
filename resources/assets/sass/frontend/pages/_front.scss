@@ -1,0 +1,18 @@
+html,
+body {
+    font-family: "Lato", "Helvetica", sans-serif;
+}
+
+h1,
+h2 {
+    color: $colorPrimary;
+    font-family: "bit", serif;
+}
+
+h1 {
+    font-size: $unitBase * 4;
+}
+
+h2 {
+    font-size: $unitBase * 2;
+}

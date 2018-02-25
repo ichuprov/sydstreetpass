@@ -62767,7 +62767,7 @@ $(function () {
 /***/ "./resources/assets/sass/frontend/app.scss":
 /***/ (function(module, exports) {
 
-throw new Error("Module build failed: ModuleBuildError: Module build failed: \n@import \"buttons\";\n^\n      File to import not found or unreadable: buttons.\nParent style sheet: stdin\n      in /Applications/MAMP/htdocs/sydstreetpass/resources/assets/sass/frontend/app.scss (line 3, column 1)\n    at runLoaders (/Applications/MAMP/htdocs/sydstreetpass/node_modules/webpack/lib/NormalModule.js:195:19)\n    at /Applications/MAMP/htdocs/sydstreetpass/node_modules/loader-runner/lib/LoaderRunner.js:364:11\n    at /Applications/MAMP/htdocs/sydstreetpass/node_modules/loader-runner/lib/LoaderRunner.js:230:18\n    at context.callback (/Applications/MAMP/htdocs/sydstreetpass/node_modules/loader-runner/lib/LoaderRunner.js:111:13)\n    at Object.asyncSassJobQueue.push [as callback] (/Applications/MAMP/htdocs/sydstreetpass/node_modules/sass-loader/lib/loader.js:55:13)\n    at Object.<anonymous> (/Applications/MAMP/htdocs/sydstreetpass/node_modules/async/dist/async.js:2257:31)\n    at Object.callback (/Applications/MAMP/htdocs/sydstreetpass/node_modules/async/dist/async.js:958:16)\n    at options.error (/Applications/MAMP/htdocs/sydstreetpass/node_modules/node-sass/lib/index.js:294:32)");
+// removed by extract-text-webpack-plugin
 
 /***/ }),
 

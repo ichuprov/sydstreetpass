@@ -1,7 +1,7 @@
 // Global
 @import "global";
-@import "buttons";
+//@import "pages/fonts"; does not work properly yet
+@import "pages/buttons";
 
 // Pages
-@import "pages/dashboard";
 @import "pages/front";

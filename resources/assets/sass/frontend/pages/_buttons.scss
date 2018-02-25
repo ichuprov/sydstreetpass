@@ -1,5 +1,16 @@
 [role="button"]{
     color: $colorPrimary;
+    cursor: pointer;
+    background: none;
     border: 2px solid $colorPrimary;
     border-radius: $unitBase * 2;
+    font-size: $unitBase;
+    padding: ($unitBase / 2) $unitBase;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: $animDelay $animType;
+
+    &:hover {
+        background: lighten($colorPrimary, 30%);
+    }
 }
