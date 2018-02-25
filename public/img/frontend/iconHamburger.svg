@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>iconHamburger</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="ExportIcons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="iconHamburger">
+            <polygon id="Rectangle-Copy-4" fill="#FFE7E7" points="32 5.87938524 0.711749492 16.8240298 1.0658141e-14 14.9446446 31.2882505 4"></polygon>
+            <polygon id="Rectangle-Copy-6" fill="#FFE7E7" points="32 16.8793852 0.711749492 27.8240298 1.0658141e-14 25.9446446 31.2882505 15"></polygon>
+            <rect id="Rectangle-Copy" fill="#FD4F4F" x="0" y="4" width="32" height="2"></rect>
+            <rect id="Rectangle-Copy-2" fill="#FD4F4F" x="0" y="15" width="32" height="2"></rect>
+            <rect id="Rectangle-Copy-3" fill="#FD4F4F" x="0" y="26" width="32" height="2"></rect>
+        </g>
+    </g>
+</svg>
