@@ -27,3 +27,5 @@ output.txt
 *.zip
 *.7z
 *.rar
+package*.json
+
