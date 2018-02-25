@@ -1,0 +1,15 @@
+nav[role="navigation"] {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+    a {
+        text-decoration: none;
+    }
+
+    svg {
+        height: $unitBase;
+        width: $unitBase;
+    }
+}
