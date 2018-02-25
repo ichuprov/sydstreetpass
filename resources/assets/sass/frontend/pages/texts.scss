@@ -1,0 +1,23 @@
+h1,
+h2 {
+    color: $colorPrimary;
+    font-family: "bit", serif;
+}
+
+h1 {
+    font-size: $unitBase * 4;
+}
+
+h2 {
+    font-size: $unitBase * 2;
+}
+
+h3 {
+    color: lighten($colorSupport, 20%);
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+p {
+    color: lighten($colorSupport, 20%);
+}

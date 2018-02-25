@@ -2,14 +2,26 @@ nav[role="navigation"] {
     align-items: center;
     display: flex;
     justify-content: space-between;
-    width: 100%;
+    padding: $unitBase ($unitBase * 2);
+    position: sticky;
+    top: 0;
 
     a {
+        align-items: center;
+        display: flex;
         text-decoration: none;
+
+        svg:first-child {
+            margin-right: $unitBase;
+        }
     }
 
     svg {
-        height: $unitBase;
-        width: $unitBase;
+        height: $unitBase * 2;
+        width: $unitBase * 2;
+    }
+
+    [role="button"] {
+        font-size: $unitBase / 1.2;
     }
 }

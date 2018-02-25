@@ -1,3 +1,27 @@
+h1,
+h2 {
+  color: #FD4F4F;
+  font-family: "bit", serif;
+}
+
+h1 {
+  font-size: 64px;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+h3 {
+  color: #695a5a;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+p {
+  color: #695a5a;
+}
+
 [role="button"] {
   color: #FD4F4F;
   cursor: pointer;
@@ -26,35 +50,73 @@ nav[role="navigation"] {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  width: 100%;
+  padding: 16px 32px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
 }
 
 nav[role="navigation"] a {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   text-decoration: none;
 }
 
+nav[role="navigation"] a svg:first-child {
+  margin-right: 16px;
+}
+
 nav[role="navigation"] svg {
-  height: 16px;
-  width: 16px;
+  height: 32px;
+  width: 32px;
+}
+
+nav[role="navigation"] [role="button"] {
+  font-size: 13.33333333px;
 }
 
 html,
 body {
   font-family: "Lato", "Helvetica", sans-serif;
-  padding: 0;
+  margin: 0;
 }
 
-h1,
-h2 {
-  color: #FD4F4F;
-  font-family: "bit", serif;
+main {
+  color: #322B2B;
+  font-size: 16px;
 }
 
-h1 {
-  font-size: 64px;
+section {
+  margin: auto;
+  max-width: 800px;
+  padding: 16px;
 }
 
-h2 {
-  font-size: 32px;
+.next-event article {
+  max-width: 320px;
+}
+
+.next-event article h1 {
+  margin: 0;
+}
+
+.next-event article h3 {
+  margin: 0;
+}
+
+.next-event article h4 {
+  margin: 0;
+}
+
+.next-event article p {
+  margin: 32px 0 48px;
+}
+
+[role="about"] > article:first-child {
+  max-width: 320px;
 }
 

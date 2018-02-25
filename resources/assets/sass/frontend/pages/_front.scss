@@ -1,19 +1,45 @@
 html,
 body {
     font-family: "Lato", "Helvetica", sans-serif;
-    padding: 0;
+    margin: 0;
 }
 
-h1,
-h2 {
-    color: $colorPrimary;
-    font-family: "bit", serif;
+main {
+    color: $colorSupport;
+    font-size: $unitBase;
 }
 
-h1 {
-    font-size: $unitBase * 4;
+section {
+    margin: auto;
+    max-width: $unitBase * 50;
+    padding: $unitBase;
 }
 
-h2 {
-    font-size: $unitBase * 2;
+.next-event {
+    article {
+        max-width: $unitBase * 20;
+
+        h1 {
+            margin: 0;
+        }
+
+        h3 {
+            margin: 0;
+        }
+
+        h4 {
+            margin: 0;
+        }
+
+        p {
+            margin: ($unitBase * 2) 0 ($unitBase * 3);
+        }
+    }
+}
+
+[role="about"] {
+
+    > article:first-child {
+        max-width: $unitBase * 20;
+    }
 }
