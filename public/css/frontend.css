@@ -147,7 +147,7 @@ section {
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
-  max-width: 192px;
+  margin: 0 32px;
 }
 
 .consoles div article h3 {
@@ -224,8 +224,7 @@ footer section + section p ~ p {
   }
 
   .consoles div article {
-    margin-bottom: 16px;
-    max-width: 320px;
+    margin: 0 0 16px;
   }
 
   .consoles div article h3 {
