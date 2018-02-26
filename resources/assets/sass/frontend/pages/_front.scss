@@ -37,9 +37,96 @@ section {
     }
 }
 
-[role="about"] {
+.about {
+    justify-content: flex-end;
+    display: flex;
 
-    > article:first-child {
+    article {
         max-width: $unitBase * 20;
+    }
+}
+
+.consoles {
+    h2 {
+        text-align: center;
+    }
+    div {
+        display: flex;
+        justify-content: space-between;
+
+        article {
+            flex-grow: 1;
+            max-width: $unitBase * 12;
+
+            h3 {
+                text-align: center;
+            }
+
+            p {
+                text-align: left;
+            }
+        }
+    }
+}
+
+footer {
+    margin-top: $unitBase * 5;
+
+    [role="register"] {
+        text-align: center;
+
+        h4 {
+            margin-bottom: $unitBase;
+        }
+
+        h2 {
+            margin-top: 0;
+        }
+    }
+
+    section + section {
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+        margin-top: $unitBase * 10;
+        max-width: inherit;
+
+        p {
+            flex-grow: 1;
+            width: 25%;
+        }
+
+        nav {
+            display: flex;
+            flex-grow: 2;
+            justify-content: center;
+            margin: auto;
+            width: 50%;
+
+            a {
+                margin: 0 ($unitBase / 2);
+            }
+        }
+
+        p ~ p {
+            text-align: right;
+        }
+    }
+}
+
+@media all and (max-width: ($unitBase * 42)) {
+    .consoles {
+        div {
+            flex-wrap: wrap;
+
+            article {
+                margin-bottom: $unitBase;
+                max-width: $unitBase * 20;
+
+                h3 {
+                    text-align: left;
+                }
+            }
+        }
     }
 }

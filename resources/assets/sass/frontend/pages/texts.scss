@@ -13,11 +13,12 @@ h2 {
 }
 
 h3 {
-    color: lighten($colorSupport, 20%);
+    color: $colorSupport;
     font-weight: 400;
     text-transform: uppercase;
 }
 
 p {
     color: lighten($colorSupport, 20%);
+    line-height: $unitBase * 1.6;
 }
