@@ -23,22 +23,47 @@ p {
   line-height: 25.6px;
 }
 
+a[role="link"] {
+  color: #322B2B;
+  border-bottom: 2px #FD4F4F dotted;
+  text-decoration: none;
+  -webkit-transition: all ease 0.2s;
+  transition: all ease 0.2s;
+}
+
+a[role="link"]:hover {
+  border-bottom: 2px #FD4F4F solid;
+}
+
+a[role="link"]:active {
+  border-bottom: 2px #322B2B solid;
+}
+
+a[role="link"]:visited {
+  color: #FD4F4F;
+}
+
 [role="button"] {
   color: #FD4F4F;
   cursor: pointer;
-  background: none;
+  background-color: #FFFFFF;
   border: 2px solid #FD4F4F;
   border-radius: 32px;
+  -webkit-box-shadow: 0 4px 8px #e3dfdf;
+          box-shadow: 0 4px 8px #e3dfdf;
   font-size: 16px;
   padding: 8px 16px;
   text-decoration: none;
   text-transform: uppercase;
-  -webkit-transition: 0.2s ease;
-  transition: 0.2s ease;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
 }
 
 [role="button"]:hover {
-  background: #ffe6e6;
+  color: #FFFFFF;
+  background-color: #FD4F4F;
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 
 nav[role="navigation"] {
@@ -51,7 +76,7 @@ nav[role="navigation"] {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding: 16px 32px;
+  padding: 16px;
   position: -webkit-sticky;
   position: sticky;
   top: 0;
@@ -98,6 +123,7 @@ section {
 }
 
 .next-event article {
+  margin-top: 64px;
   max-width: 320px;
 }
 
@@ -128,6 +154,10 @@ section {
 
 .about article {
   max-width: 320px;
+}
+
+.consoles {
+  margin-top: 32px;
 }
 
 .consoles h2 {
@@ -229,6 +259,31 @@ footer section + section p ~ p {
 
   .consoles div article h3 {
     text-align: left;
+  }
+
+  footer section + section {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin-top: 80px;
+    padding-bottom: 16px;
+  }
+
+  footer section + section p,
+  footer section + section p ~ p {
+    margin: 0;
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+    text-align: center;
+    width: auto;
+  }
+
+  footer section + section nav {
+    margin-bottom: 32px;
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+    width: auto;
   }
 }
 

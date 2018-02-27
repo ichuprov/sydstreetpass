@@ -17,6 +17,7 @@ section {
 
 .next-event {
     article {
+        margin-top: $unitBase * 4;
         max-width: $unitBase * 20;
 
         h1 {
@@ -47,6 +48,8 @@ section {
 }
 
 .consoles {
+    margin-top: $unitBase * 2;
+
     h2 {
         text-align: center;
     }
@@ -126,6 +129,25 @@ footer {
                     text-align: left;
                 }
             }
+        }
+    }
+
+    footer section + section {
+        flex-wrap: wrap;
+        margin-top: $unitBase * 5;
+        padding-bottom: $unitBase;
+
+        p, p ~ p {
+            margin: 0;
+            order: 2;
+            text-align: center;
+            width: auto;
+        }
+
+        nav {
+            margin-bottom: $unitBase * 2;
+            order: 1;
+            width: auto;
         }
     }
 }

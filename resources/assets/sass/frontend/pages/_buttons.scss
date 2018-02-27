@@ -1,16 +1,19 @@
 [role="button"] {
     color: $colorPrimary;
     cursor: pointer;
-    background: none;
+    background-color: $colorBackground;
     border: 2px solid $colorPrimary;
     border-radius: $unitBase * 2;
+    box-shadow: 0 ($unitBase / 4) ($unitBase / 2) lighten($colorSupport, 70%);
     font-size: $unitBase;
     padding: ($unitBase / 2) $unitBase;
     text-decoration: none;
     text-transform: uppercase;
-    transition: $animDelay $animType;
+    transition: all $animDelay $animType;
 
     &:hover {
-        background: lighten($colorPrimary, 30%);
+        color: $colorBackground;
+        background-color: $colorPrimary;
+        box-shadow: none;
     }
 }

@@ -22,3 +22,22 @@ p {
     color: lighten($colorSupport, 20%);
     line-height: $unitBase * 1.6;
 }
+
+a[role="link"] {
+    color: $colorSupport;
+    border-bottom: 2px $colorPrimary dotted;
+    text-decoration: none;
+    transition: all $animType $animDelay;
+
+    &:hover {
+        border-bottom: 2px $colorPrimary solid;
+    }
+
+    &:active {
+        border-bottom: 2px $colorSupport solid;
+    }
+
+    &:visited {
+        color: $colorPrimary;
+    }
+}
