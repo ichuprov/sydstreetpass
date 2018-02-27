@@ -141,13 +141,13 @@ footer {
             margin: 0;
             order: 2;
             text-align: center;
-            width: auto;
+            width: 100%;
         }
 
         nav {
             margin-bottom: $unitBase * 2;
             order: 1;
-            width: auto;
+            width: 100%;
         }
     }
 }
