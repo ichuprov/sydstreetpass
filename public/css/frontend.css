@@ -1,6 +1,6 @@
 h1,
 h2 {
-  color: #FD4F4F;
+  color: #D20014;
   font-family: "bit", serif;
 }
 
@@ -25,29 +25,29 @@ p {
 
 a[role="link"] {
   color: #322B2B;
-  border-bottom: 2px #FD4F4F dotted;
+  border-bottom: 2px #D20014 dotted;
   text-decoration: none;
   -webkit-transition: all ease 0.2s;
   transition: all ease 0.2s;
 }
 
 a[role="link"]:hover {
-  border-bottom: 2px #FD4F4F solid;
+  border-bottom-style: solid;
 }
 
 a[role="link"]:active {
-  border-bottom: 2px #322B2B solid;
+  border-bottom-color: #322B2B;
 }
 
 a[role="link"]:visited {
-  color: #FD4F4F;
+  color: #D20014;
 }
 
 [role="button"] {
-  color: #FD4F4F;
+  color: #D20014;
   cursor: pointer;
   background-color: #FFFFFF;
-  border: 2px solid #FD4F4F;
+  border: 2px solid #D20014;
   border-radius: 32px;
   -webkit-box-shadow: 0 4px 8px #e3dfdf;
           box-shadow: 0 4px 8px #e3dfdf;
@@ -61,7 +61,7 @@ a[role="link"]:visited {
 
 [role="button"]:hover {
   color: #FFFFFF;
-  background-color: #FD4F4F;
+  background-color: #D20014;
   -webkit-box-shadow: none;
           box-shadow: none;
 }
@@ -240,8 +240,19 @@ footer section + section nav {
   width: 50%;
 }
 
-footer section + section nav a {
+footer section + section nav a[role="link"] {
+  border-bottom: 0;
   margin: 0 8px;
+}
+
+footer section + section nav a[role="link"] svg {
+  fill: #322B2B;
+  height: 32px;
+  width: 32px;
+}
+
+footer section + section nav a[role="link"]:hover svg {
+  fill: #D20014;
 }
 
 footer section + section p ~ p {

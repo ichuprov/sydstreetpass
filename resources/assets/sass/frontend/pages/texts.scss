@@ -30,11 +30,11 @@ a[role="link"] {
     transition: all $animType $animDelay;
 
     &:hover {
-        border-bottom: 2px $colorPrimary solid;
+        border-bottom-style: solid;
     }
 
     &:active {
-        border-bottom: 2px $colorSupport solid;
+        border-bottom-color: $colorSupport;
     }
 
     &:visited {
