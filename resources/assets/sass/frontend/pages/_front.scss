@@ -73,6 +73,7 @@ section {
 }
 
 footer {
+    background: url('public/img/frontend/background-footer.svg') no-repeat center center;
     margin-top: $unitBase * 5;
 
     [role="register"] {
