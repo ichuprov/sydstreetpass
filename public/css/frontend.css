@@ -112,8 +112,11 @@ body {
 }
 
 main {
+  background: url(/images/main-illustration.svg?222cebfac31728941007a16454b388da) no-repeat top right;
   color: #322B2B;
   font-size: 16px;
+  margin-top: -64px;
+  padding-top: 64px;
 }
 
 section {

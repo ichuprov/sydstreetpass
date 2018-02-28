@@ -5,8 +5,11 @@ body {
 }
 
 main {
+    background: url(#{$assetPath}main-illustration.svg) no-repeat top right;
     color: $colorSupport;
     font-size: $unitBase;
+    margin-top: $unitBase * -4;
+    padding-top: $unitBase * 4;
 }
 
 section {
