@@ -189,6 +189,7 @@ section {
 }
 
 footer {
+  background: url(/images/background-footer.svg?7f8946e0fdd22970bc6a24e60de5ddf8) no-repeat center bottom;
   margin-top: 80px;
 }
 

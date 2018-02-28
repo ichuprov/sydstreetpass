@@ -73,7 +73,8 @@ section {
 }
 
 footer {
-    background: url('public/img/frontend/background-footer.svg') no-repeat center center;
+    background: url(#{$assetPath}background-footer.svg) no-repeat center bottom;
+
     margin-top: $unitBase * 5;
 
     [role="register"] {
