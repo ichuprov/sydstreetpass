@@ -1,3 +1,10 @@
+@font-face {
+  font-family: 'bit';
+  src: url(/fonts/bit-webfont.woff2?4209edc4d491440839dc5599e2a6d9a7) format("woff2"), url(/fonts/bit-webfont.woff?93d7adcfb4e3ec0abf366e483e7991be) format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
 h1,
 h2 {
   color: #D20014;
