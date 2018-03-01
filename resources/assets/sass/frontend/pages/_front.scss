@@ -5,7 +5,7 @@ body {
 }
 
 main {
-    background: url(#{$assetPath}main-illustration.svg) no-repeat top right;
+    background: url(../#{$assetPath}main-illustration.svg) no-repeat top right;
     color: $colorSupport;
     font-size: $unitBase;
     margin-top: $unitBase * -4;
@@ -14,7 +14,7 @@ main {
 
 section {
     margin: auto;
-    max-width: $unitBase * 80;
+    max-width: $unitBase * 70;
     padding: $unitBase;
 }
 
