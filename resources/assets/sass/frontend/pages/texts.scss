@@ -18,6 +18,18 @@ h3 {
     text-transform: uppercase;
 }
 
+h4 {
+    color: $colorSupport;
+    font-size: $unitBase;
+    font-weight: 400;
+}
+
+h5 {
+    color: lighten($colorSupport, 20%);
+    font-size: $unitBase;
+    font-weight: 400;
+}
+
 p {
     color: lighten($colorSupport, 20%);
     line-height: $unitBase * 1.6;

@@ -18,6 +18,18 @@ h3 {
   text-transform: uppercase;
 }
 
+h4 {
+  color: #322B2B;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+h5 {
+  color: #695a5a;
+  font-size: 16px;
+  font-weight: 400;
+}
+
 p {
   color: #695a5a;
   line-height: 25.6px;
@@ -121,29 +133,37 @@ main {
 
 section {
   margin: auto;
-  max-width: 800px;
+  max-width: 1280px;
   padding: 16px;
 }
 
 .next-event article {
-  margin-top: 64px;
-  max-width: 320px;
+  margin: 64px 0;
+  max-width: 416px;
 }
 
 .next-event article h1 {
-  margin: 0;
+  margin: 8px 0;
 }
 
-.next-event article h3 {
-  margin: 0;
-}
-
+.next-event article h2,
+.next-event article h3,
 .next-event article h4 {
   margin: 0;
 }
 
+.next-event article h5 {
+  margin-top: 8px;
+}
+
 .next-event article p {
   margin: 32px 0 48px;
+}
+
+.next-event article svg {
+  fill: #322B2B;
+  height: 16px;
+  width: 16px;
 }
 
 .about {
@@ -156,7 +176,7 @@ section {
 }
 
 .about article {
-  max-width: 320px;
+  max-width: 416px;
 }
 
 .consoles {

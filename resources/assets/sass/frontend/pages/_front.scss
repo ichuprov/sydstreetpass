@@ -14,29 +14,35 @@ main {
 
 section {
     margin: auto;
-    max-width: $unitBase * 50;
+    max-width: $unitBase * 80;
     padding: $unitBase;
 }
 
 .next-event {
     article {
-        margin-top: $unitBase * 4;
-        max-width: $unitBase * 20;
+        margin: ($unitBase * 4) 0;
+        max-width: $unitBase * 26;
 
         h1 {
+            margin: ($unitBase / 2) 0;
+        }
+
+        h2, h3, h4 {
             margin: 0;
         }
 
-        h3 {
-            margin: 0;
-        }
-
-        h4 {
-            margin: 0;
+        h5 {
+            margin-top: $unitBase / 2;
         }
 
         p {
             margin: ($unitBase * 2) 0 ($unitBase * 3);
+        }
+
+        svg {
+            fill: $colorSupport;
+            height: $unitBase;
+            width: $unitBase;
         }
     }
 }
@@ -46,7 +52,7 @@ section {
     display: flex;
 
     article {
-        max-width: $unitBase * 20;
+        max-width: $unitBase * 26;
     }
 }
 
