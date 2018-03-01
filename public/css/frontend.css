@@ -140,7 +140,7 @@ main {
 
 section {
   margin: auto;
-  max-width: 1120px;
+  max-width: 960px;
   padding: 16px;
 }
 
@@ -183,11 +183,12 @@ section {
 }
 
 .about article {
+  margin: 64px 0;
   max-width: 416px;
 }
 
 .consoles {
-  margin-top: 32px;
+  padding-top: 32px;
 }
 
 .consoles h2 {
@@ -208,6 +209,7 @@ section {
       -ms-flex-positive: 1;
           flex-grow: 1;
   margin: 0 32px;
+  width: 100%;
 }
 
 .consoles div article h3 {
@@ -220,6 +222,7 @@ section {
 
 footer {
   background: url(/images/background-footer.svg?7f8946e0fdd22970bc6a24e60de5ddf8) no-repeat center bottom;
+  background-size: cover;
   margin-top: 80px;
 }
 
