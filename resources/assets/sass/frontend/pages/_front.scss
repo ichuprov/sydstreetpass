@@ -19,6 +19,9 @@ section {
 }
 
 .next-event {
+    display: flex;
+    justify-content: space-between;
+
     article {
         margin: ($unitBase * 4) 0;
         max-width: $unitBase * 26;
@@ -48,10 +51,11 @@ section {
 }
 
 .about {
-    justify-content: flex-end;
     display: flex;
+    justify-content: space-between;
 
     article {
+        order: 2;
         margin: ($unitBase * 4) 0;
         max-width: $unitBase * 26;
     }
@@ -61,8 +65,10 @@ section {
     padding-top: $unitBase * 2;
 
     h2 {
+        margin: ($unitBase * 4) 0;
         text-align: center;
     }
+
     div {
         display: flex;
         justify-content: space-between;
@@ -70,6 +76,7 @@ section {
         article {
             flex-grow: 1;
             margin: 0 ($unitBase * 2);
+            text-align: center;
             width: 100%;
 
             h3 {
@@ -97,7 +104,11 @@ footer {
         }
 
         h2 {
-            margin-top: 0;
+            margin-bottom: 0 0 ($unitBase * 2);
+        }
+
+        a {
+            display: inline-block;
         }
     }
 
@@ -142,7 +153,26 @@ footer {
     }
 }
 
+@media all and (max-width: ($unitBase * 64)) {
+    main {
+        background-size: 50%;
+    }
+}
+
 @media all and (max-width: ($unitBase * 42)) {
+    main {
+        background-size: inherit;
+    }
+
+    .next-event,
+    .about {
+        flex-wrap: wrap;
+
+        object {
+            display: none;
+        }
+    }
+
     .consoles {
         div {
             flex-wrap: wrap;

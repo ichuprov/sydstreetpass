@@ -25,3 +25,10 @@ nav[role="navigation"] {
         font-size: $unitBase / 1.2;
     }
 }
+
+@media all and (max-width: ($unitBase * 64)) {
+    nav[role="navigation"] {
+        background: $colorBackground;
+        border-bottom: 1px solid lighten($colorSupport, 60%);
+    }
+}

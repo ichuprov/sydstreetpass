@@ -124,6 +124,13 @@ nav[role="navigation"] [role="button"] {
   font-size: 13.33333333px;
 }
 
+@media all and (max-width: 1024px) {
+  nav[role="navigation"] {
+    background: #FFFFFF;
+    border-bottom: 1px solid #ccc3c3;
+  }
+}
+
 html,
 body {
   font-family: "Lato", "Helvetica", sans-serif;
@@ -142,6 +149,15 @@ section {
   margin: auto;
   max-width: 960px;
   padding: 16px;
+}
+
+.next-event {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .next-event article {
@@ -174,15 +190,18 @@ section {
 }
 
 .about {
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .about article {
+  -webkit-box-ordinal-group: 3;
+      -ms-flex-order: 2;
+          order: 2;
   margin: 64px 0;
   max-width: 416px;
 }
@@ -192,6 +211,7 @@ section {
 }
 
 .consoles h2 {
+  margin: 64px 0;
   text-align: center;
 }
 
@@ -209,6 +229,7 @@ section {
       -ms-flex-positive: 1;
           flex-grow: 1;
   margin: 0 32px;
+  text-align: center;
   width: 100%;
 }
 
@@ -235,7 +256,11 @@ footer [role="register"] h4 {
 }
 
 footer [role="register"] h2 {
-  margin-top: 0;
+  margin-bottom: 0 0 32px;
+}
+
+footer [role="register"] a {
+  display: inline-block;
 }
 
 footer section + section {
@@ -292,7 +317,28 @@ footer section + section p ~ p {
   text-align: right;
 }
 
+@media all and (max-width: 1024px) {
+  main {
+    background-size: 50%;
+  }
+}
+
 @media all and (max-width: 672px) {
+  main {
+    background-size: inherit;
+  }
+
+  .next-event,
+  .about {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+
+  .next-event object,
+  .about object {
+    display: none;
+  }
+
   .consoles div {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
