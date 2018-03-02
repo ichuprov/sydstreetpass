@@ -1,0 +1,55 @@
+h1,
+h2 {
+    color: $colorPrimary;
+    font-family: "bit", serif;
+}
+
+h1 {
+    font-size: $unitBase * 4;
+}
+
+h2 {
+    font-size: $unitBase * 2;
+}
+
+h3 {
+    color: $colorSupport;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+h4 {
+    color: $colorSupport;
+    font-size: $unitBase;
+    font-weight: 400;
+}
+
+h5 {
+    color: lighten($colorSupport, 20%);
+    font-size: $unitBase;
+    font-weight: 400;
+}
+
+p {
+    color: lighten($colorSupport, 20%);
+    line-height: $unitBase * 1.6;
+}
+
+a[role="link"] {
+    color: $colorSupport;
+    border-bottom: 2px $colorPrimary dotted;
+    text-decoration: none;
+    transition: all $animType $animDelay;
+
+    &:hover {
+        border-bottom-style: solid;
+    }
+
+    &:active {
+        border-bottom-color: $colorSupport;
+    }
+
+    &:visited {
+        color: $colorPrimary;
+    }
+}

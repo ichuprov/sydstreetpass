@@ -1,5 +1,11 @@
-// Header Styles
-.logged-in-as {
-  margin: 0;
-  border-radius: 0;
-}
+$assetPath : "../../img/";
+
+$unitBase: 16px;
+
+$colorPrimary: #D20014;
+$colorSecondary: #2B6CD0;
+$colorSupport: #322B2B;
+$colorBackground: #FFFFFF;
+
+$animType: ease;
+$animDelay: 0.2s;

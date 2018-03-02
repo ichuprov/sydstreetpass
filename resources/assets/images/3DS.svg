@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <defs>
+    <linearGradient id="3ds-a" x1="74.271%" x2="-12.861%" y1="10.694%" y2="123.376%">
+      <stop offset="0%" stop-color="#EFF7FF"/>
+      <stop offset="100%" stop-color="#ACDAFF"/>
+    </linearGradient>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <circle cx="64" cy="64" r="64" fill="#FFE7E7"/>
+    <path fill="#F48B8B" d="M21,63 L107,63 L107,97 C107,100.313708 104.313708,103 101,103 L27,103 C23.6862915,103 21,100.313708 21,97 L21,63 Z"/>
+    <path fill="#2B6CD0" d="M27,22 L101,22 C104.313708,22 107,24.6862915 107,28 L107,64 L21,64 L21,28 C21,24.6862915 23.6862915,22 27,22 Z"/>
+    <rect width="46" height="32" x="41" y="66" fill="url(#3ds-a)"/>
+    <rect width="62" height="32" x="33" y="28" fill="url(#3ds-a)"/>
+    <circle cx="30" cy="73" r="6" fill="#E8E8E8"/>
+    <circle cx="97" cy="69" r="2" fill="#E8E8E8"/>
+    <circle cx="97" cy="77" r="2" fill="#E8E8E8"/>
+    <circle cx="101" cy="73" r="2" fill="#E8E8E8"/>
+    <circle cx="93" cy="73" r="2" fill="#E8E8E8"/>
+  </g>
+</svg>
