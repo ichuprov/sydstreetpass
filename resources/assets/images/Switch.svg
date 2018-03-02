@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="150" height="128" viewBox="0 0 150 128">
+  <defs>
+    <rect id="switch-a" width="150" height="67.241" y="30" rx="10"/>
+    <linearGradient id="switch-c" x1="74.271%" x2="-12.861%" y1="10.694%" y2="123.376%">
+      <stop offset="0%" stop-color="#EFF7FF"/>
+      <stop offset="100%" stop-color="#ACDAFF"/>
+    </linearGradient>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <circle cx="75" cy="64" r="64" fill="#FFE7E7"/>
+    <mask id="switch-b" fill="#fff">
+      <use xlink:href="#switch-a"/>
+    </mask>
+    <use fill="#A7ACB3" xlink:href="#switch-a"/>
+    <rect width="30" height="72.414" x="-6.724" y="27.155" fill="#2B6CD0" mask="url(#switch-b)"/>
+    <rect width="30" height="72.414" x="126.724" y="27.155" fill="#F48B8B" mask="url(#switch-b)"/>
+    <rect width="103.448" height="62.069" x="23.276" y="32.586" fill="url(#switch-c)" mask="url(#switch-b)"/>
+    <g fill="#E8E8E8" mask="url(#switch-b)">
+      <g transform="translate(5.69 38.534)">
+        <circle cx="5.69" cy="5.69" r="5.69"/>
+        <circle cx="5.69" cy="21.466" r="1.81"/>
+        <circle cx="5.69" cy="31.293" r="1.81"/>
+        <circle cx="5.69" cy="50.948" r="1.81"/>
+        <circle cx="1.81" cy="26.379" r="1.81"/>
+        <circle cx="9.569" cy="26.379" r="1.81"/>
+      </g>
+    </g>
+    <g fill="#E8E8E8" mask="url(#switch-b)">
+      <g transform="translate(132.931 38.793)">
+        <circle cx="5.69" cy="26.121" r="5.69"/>
+        <circle cx="5.69" cy="1.81" r="1.81"/>
+        <circle cx="5.69" cy="11.638" r="1.81"/>
+        <circle cx="5.69" cy="50.69" r="1.81"/>
+        <circle cx="1.81" cy="6.724" r="1.81"/>
+        <circle cx="9.569" cy="6.724" r="1.81"/>
+      </g>
+    </g>
+  </g>
+</svg>

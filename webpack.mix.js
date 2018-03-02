@@ -20,6 +20,8 @@ mix.sass('resources/assets/sass/frontend/app.scss', 'public/css/frontend.css')
         'resources/assets/js/backend/after.js'
     ], 'public/js/backend.js');
 
+mix.copy('resources/assets/images', 'public/images');
+
 if (mix.inProduction() || process.env.npm_lifecycle_event !== 'hot') {
     mix.version();
 }

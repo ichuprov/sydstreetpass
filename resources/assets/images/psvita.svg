@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="130" height="128" viewBox="0 0 130 128">
+  <defs>
+    <rect id="psvita-a" width="130" height="67.241" y="30" rx="30"/>
+    <linearGradient id="psvita-b" x1="74.271%" x2="-12.861%" y1="10.694%" y2="123.376%">
+      <stop offset="0%" stop-color="#EFF7FF"/>
+      <stop offset="100%" stop-color="#ACDAFF"/>
+    </linearGradient>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <circle cx="66" cy="64" r="64" fill="#FFE7E7"/>
+    <mask id="psvita-c" fill="#fff">
+      <use xlink:href="#psvita-a"/>
+    </mask>
+    <use fill="#A7ACB3" xlink:href="#psvita-a"/>
+    <rect width="90" height="52" x="20" y="38" fill="url(#psvita-b)" mask="url(#psvita-c)"/>
+    <circle cx="9.793" cy="72.793" r="3.793" fill="#7B7B7B" mask="url(#psvita-c)"/>
+    <circle cx="120.724" cy="72.793" r="3.793" fill="#7B7B7B" mask="url(#psvita-c)"/>
+    <circle cx="121.621" cy="52.603" r="1.81" fill="#7B7B7B" mask="url(#psvita-c)"/>
+    <circle cx="121.621" cy="62.431" r="1.81" fill="#7B7B7B" mask="url(#psvita-c)"/>
+    <circle cx="117.741" cy="57.517" r="1.81" fill="#7B7B7B" mask="url(#psvita-c)"/>
+    <circle cx="125.5" cy="57.517" r="1.81" fill="#7B7B7B" mask="url(#psvita-c)"/>
+    <rect width="4" height="10" x="7.931" y="51.793" fill="#7B7B7B" mask="url(#psvita-c)"/>
+    <rect width="10" height="4" x="4.931" y="54.793" fill="#7B7B7B" mask="url(#psvita-c)"/>
+  </g>
+</svg>
